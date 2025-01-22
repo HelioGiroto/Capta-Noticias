@@ -21,7 +21,7 @@ Os links quebrados ou desativados não afetam à execução do programa.
 Arquivos: 
 
 ```
-fontes_de_noticias.txt    # ~ 150 links
+fontes_de_noticias.txt    # ~ 100 links
 5000_links.txt            # > 5000 links
 
 ```
