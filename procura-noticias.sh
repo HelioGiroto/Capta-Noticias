@@ -5,11 +5,14 @@
 
 # Autor: Hélio Giroto
 # Data: 17/01/2025
-# Ambiente que roda: Sistemas *Unix
+
+# Ambiente que roda: Qualquer sistema *Unix (Linux, FreeBSD e Mac) 
 
 # Requerimentos:
-# Este script depende apenas, além dos comandos requeridos instalados no Linux, -
-# ... requer o arquivo texto com todos os links de sites de notícias chamado: fontes_de_noticias.txt
+	# Este script depende apenas, além dos comandos requeridos instalados no Linux:
+	# 	sudo apt install lynx sed grep uniq
+	# ... e requer tb o arquivo texto com todos os links de sites de notícias chamado: fontes_de_noticias.txt
+
 
 IFS='
 '
@@ -138,7 +141,8 @@ echo $(date) >> noticias_acumuladas.txt
 cat lista_links_google.txt >> noticias_acumuladas.txt
 
 # abre o arquivo com os resultados conclusivos:
-gedit lista_links_google.txt
+# gedit lista_links_google.txt
+vim lista_links_google.txt  # opção para abrir (ou nano, etc...)
 
 # ver https://www.grymoire.com/Unix/Sed.html#uh-29
 

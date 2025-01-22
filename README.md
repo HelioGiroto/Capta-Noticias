@@ -28,4 +28,4 @@ fontes_de_noticias.txt    # ~ 100 links
 
 A saída (resultado) da execução do script será outro arquivo txt: `lista_links_google.txt` e outro com os links acumulados com data: `noticias_acumuladas.txt`. Os links gerados que estarão dentro destes arquivos de texto são link de busca do Google (nessa primeira versão do script), porém numa posterior versão aprimoraremos para links do próprio site. 
 
-Disfrute.
+Desfrute.
